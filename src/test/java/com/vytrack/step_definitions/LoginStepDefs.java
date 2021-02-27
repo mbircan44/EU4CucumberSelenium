@@ -57,6 +57,9 @@ public class LoginStepDefs {
         System.out.println("expectedTitle = " + expectedTitle);
         BrowserUtils.waitFor(2);
         Assert.assertTrue(Driver.get().getTitle().contains(expectedTitle));
+        System.out.println("hello");
+
+
 
     }
 

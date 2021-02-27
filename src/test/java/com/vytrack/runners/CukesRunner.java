@@ -8,6 +8,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         plugin = {"json:target/cucumber.json",
                 "html:target/default-html-features",
+//                "junit:target/junit/junit-report.xml",
                 "rerun:target/rerun.txt"},
         features = "src/test/resources/features",
         glue = "com/vytrack/step_definitions",
