@@ -6,6 +6,10 @@ public class DenemeStepDefs {
 
     @Test
     public void tests(){
+        
+        //buraya code lari yazmayi unutma.
+        //@findby(id"username")
+        
 
     }
 }
